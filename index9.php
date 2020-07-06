@@ -9,8 +9,8 @@ function myTest() {
 
   echo $x."<br>"; // outputs the value of variable x
 
-  # increment x by 1
-  $x++;
+  # incrementing x by 1
+  $x++; // x = x + 1
 
 }
 

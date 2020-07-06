@@ -11,14 +11,14 @@ function myUpdate() {
     // global keyword is used to access the declared global variables 
     global $x, $y;
 
-    # updating the value of variable y
-    $y = $x + $y;
+    # updating the value of variable x
+    $x = $x + $y;
 
 }
 
 // calling a function named myUpdate()
 myUpdate();
 
-echo $y; // outputs 15
+echo $x; // outputs 15
 
 ?>

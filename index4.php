@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP String Functions</title>
-</head>
-<body>
     <?php
 
-        $text = "Hello world!";
+        $text = "Hello world!"; // creates a variable name text
 
         echo strlen($text)."<br>"; // outputs 12
         echo str_word_count($text)."<br>"; # outputs 2
@@ -17,5 +9,3 @@
         echo str_replace("world", "Salum", $text)."<br>"; // outputs Hello Salum!
         
     ?>
-</body>
-</html>
