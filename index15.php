@@ -23,9 +23,9 @@ define("cars", [
     "Nissan",
     "Suzuki",
     "Toyota"
-], false);
+  ]);
 
-  echo cars[1]."<br>";
+  echo cars[0]."<br>";
 
   # create an array constant with a case-insensitive name
 define("fruits", [

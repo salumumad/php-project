@@ -2,17 +2,13 @@
 
 // PHP floats example
 
-$x = 18.365;
+$x = 10.365;
 
 /*
 * check if the type of a variable is float
 * outputs a boolean value (true or false)
 */
-var_dump(is_double($x));
-
-echo "<br>";
-
-var_dump(PHP_FLOAT_MAX);
+var_dump(is_float($x));
 
 echo "<br>";
 

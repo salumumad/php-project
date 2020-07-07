@@ -8,11 +8,7 @@ $x = 5985;
 * check if the type of a variable is integer
 * outputs a boolean value (true or false)
 */
-var_dump (is_long($x));
-
-echo "<br>";
-
-var_dump($x);
+var_dump(is_int($x));
 
 echo "<br>";
 
